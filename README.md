@@ -8,7 +8,7 @@
 
 ```
 SELECT DISTINCT district
-FROM addresses
+FROM address
 WHERE district LIKE 'K%' AND district LIKE '%a' AND district NOT LIKE '% %';
 
 ```
