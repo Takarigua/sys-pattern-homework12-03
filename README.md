@@ -12,7 +12,7 @@ FROM address
 WHERE district LIKE 'K%' AND district LIKE '%a' AND district NOT LIKE '% %';
 
 ```
-
+![Task 1](https://github.com/Takarigua/sys-pattern-homework12-03/blob/e0549932d81be59ab4a47dcd146fb3403e20c164/img/Task%201.png)
 ---
 
 ### Задание 2
@@ -23,11 +23,11 @@ WHERE district LIKE 'K%' AND district LIKE '%a' AND district NOT LIKE '% %';
 
 ```
 SELECT *
-FROM payments
+FROM payment
 WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-18'
 AND amount > 10.00;
 ```
-
+![Task 2](https://github.com/Takarigua/sys-pattern-homework12-03/blob/e0549932d81be59ab4a47dcd146fb3403e20c164/img/Task%202.png)
 ---
 
 ### Задание 3
@@ -42,7 +42,7 @@ FROM rentals
 ORDER BY rental_date DESC
 LIMIT 5;
 ```
-
+![Task 3](https://github.com/Takarigua/sys-pattern-homework12-03/blob/e0549932d81be59ab4a47dcd146fb3403e20c164/img/Task%203.png)
 ---
 
 ### Задание 4
@@ -62,3 +62,4 @@ FROM customers
 WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1;
 
 ```
+![Task 4](https://github.com/Takarigua/sys-pattern-homework12-03/blob/e0549932d81be59ab4a47dcd146fb3403e20c164/img/Task%204.png)
