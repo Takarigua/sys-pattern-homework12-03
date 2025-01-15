@@ -38,7 +38,7 @@ AND amount > 10.00;
 
 ```
 SELECT *
-FROM rentals
+FROM rental
 ORDER BY rental_date DESC
 LIMIT 5;
 ```
@@ -58,7 +58,7 @@ LIMIT 5;
 ```
 SELECT LOWER(REPLACE(first_name, 'll', 'pp')) AS first_name,
        LOWER(REPLACE(last_name, 'll', 'pp')) AS last_name
-FROM customers
+FROM customer
 WHERE (first_name = 'Kelly' OR first_name = 'Willie') AND active = 1;
 
 ```
