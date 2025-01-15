@@ -24,10 +24,10 @@ WHERE district LIKE 'K%' AND district LIKE '%a' AND district NOT LIKE '% %';
 ```
 SELECT *
 FROM payment
-WHERE payment_date BETWEEN '2005-06-15' AND '2005-06-18'
+WHERE payment_date >= '2005-06-15 00:00:00' AND payment_date <= '2005-06-18 23:59:59'
 AND amount > 10.00;
 ```
-![Task 2](https://github.com/Takarigua/sys-pattern-homework12-03/blob/e0549932d81be59ab4a47dcd146fb3403e20c164/img/Task%202.png)
+![Task 2](https://github.com/Takarigua/sys-pattern-homework12-03/blob/8a58a7258d3592d179d5d508038d89073f18fce3/img/Task%202.1.png)
 ---
 
 ### Задание 3
